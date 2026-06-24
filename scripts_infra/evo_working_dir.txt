@@ -1,0 +1,1 @@
+                "com.docker.compose.project.working_dir": "/opt",

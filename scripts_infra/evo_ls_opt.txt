@@ -1,0 +1,17 @@
+total 76
+drwxr-xr-x 12 root root 4096 Jun 12 11:36 .
+drwxr-xr-x 22 root root 4096 May 30 10:42 ..
+drwxr-xr-x  2 root root 4096 Jun  9 14:09 blog_data
+-rw-r--r--  1 root root 4566 Jun  2 21:32 build_log_final.txt
+-rw-r--r--  1 root root 8627 Jun  2 21:26 build_log_nocache.txt
+-rw-r--r--  1 root root 2568 Jun  2 21:24 build_log.txt
+drwx--x--x  4 root root 4096 May 30 11:04 containerd
+-rw-r--r--  1 root root  496 Jun 12 11:36 docker-compose.yml
+drwxr-xr-x  6 1000 1000 4096 May 31 10:27 evolution
+drwxr-xr-x  6 root root 4096 Jun 12 11:36 landing-page
+drwxr-xr-x  3 1000 1000 4096 May 30 11:04 n8n
+drwxr-xr-x  2 root root 4096 Jun  7 09:55 n8n_standalone
+drwxr-xr-x  4 root root 4096 May 30 11:04 npm
+drwxr-xr-x  9 root root 4096 Jun  2 21:30 rdo-app
+drwxr-xr-x  3 root root 4096 Jun  2 13:48 rdo-mobile-pwa
+drwxr-xr-x  3 root root 4096 May 31 09:48 rdo-painel

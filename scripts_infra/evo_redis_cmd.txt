@@ -1,0 +1,6 @@
+            "Cmd": [
+                "redis-server",
+                "--requirepass",
+                "evoredis"
+            ],
+            "Image": "redis:alpine",

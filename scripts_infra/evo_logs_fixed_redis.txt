@@ -1,0 +1,2 @@
+Deploying migrations for postgresql
+Database URL: 

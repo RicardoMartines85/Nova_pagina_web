@@ -1,0 +1,62 @@
+OUT: aeeee4a9913fe2e224393a12e2be3c1284bc49c14c1fa7aeda9072c5c5d2261d
+
+ERR: Unable to find image 'evoapicloud/evolution-api:v2.3.7' locally
+v2.3.7: Pulling from evoapicloud/evolution-api
+d6cf0d8e8f1a: Pulling fs layer
+014e56e61396: Pulling fs layer
+ea370b117ea6: Pulling fs layer
+de13c80ec1f1: Pulling fs layer
+05f196bed839: Pulling fs layer
+932b129132bf: Pulling fs layer
+e81aab4c3bb2: Pulling fs layer
+f5ad4a193136: Pulling fs layer
+cbfb46dbc23b: Pulling fs layer
+794a72823b3d: Pulling fs layer
+91a221451ba2: Pulling fs layer
+ed30b655503b: Pulling fs layer
+22a760efe53f: Pulling fs layer
+7bda06df84b5: Pulling fs layer
+c4e510e38f48: Pulling fs layer
+92676627bf26: Pulling fs layer
+7e39f4ba3378: Pulling fs layer
+f5ad4a193136: Already exists
+7bda06df84b5: Already exists
+22a760efe53f: Already exists
+7e39f4ba3378: Already exists
+ed30b655503b: Already exists
+d6cf0d8e8f1a: Already exists
+05f196bed839: Already exists
+cbfb46dbc23b: Already exists
+c4e510e38f48: Already exists
+014e56e61396: Already exists
+de13c80ec1f1: Already exists
+92676627bf26: Already exists
+e81aab4c3bb2: Already exists
+f0c647a2cf33: Download complete
+014e56e61396: Pull complete
+91a221451ba2: Download complete
+932b129132bf: Download complete
+ea370b117ea6: Download complete
+794a72823b3d: Download complete
+ea370b117ea6: Pull complete
+de13c80ec1f1: Pull complete
+05f196bed839: Pull complete
+e81aab4c3bb2: Pull complete
+932b129132bf: Pull complete
+f5ad4a193136: Pull complete
+cbfb46dbc23b: Pull complete
+794a72823b3d: Pull complete
+91a221451ba2: Pull complete
+22a760efe53f: Pull complete
+ed30b655503b: Pull complete
+7bda06df84b5: Pull complete
+7e39f4ba3378: Pull complete
+c4e510e38f48: Pull complete
+92676627bf26: Pull complete
+d6cf0d8e8f1a: Pull complete
+Digest: sha256:1bd8afc4a6cf48822e6cf02469aeae7bd35a12a6b616eacd1291926307f4d339
+Status: Downloaded newer image for evoapicloud/evolution-api:v2.3.7
+
+LOGS:
+Deploying migrations for postgresql
+Database URL: 

@@ -1,0 +1,18 @@
+=== FIND .ENV ===
+
+=== CONTAINER ENV ===
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=21b1ac0bf667
+SERVER_URL=http://216.22.43.39:8080
+AUTHENTICATION_API_KEY=rdo-evolution-secret-2026
+REDIS_ENABLED=false
+DATABASE_CONNECTION_CLIENT_NAME=evolution_api
+DATABASE_PROVIDER=postgresql
+DATABASE_CONNECTION_URI=postgresql://evouser:evopass@evolution-postgres:5432/evolutiondb?schema=public
+AUTHENTICATION_TYPE=apikey
+LOG_LEVEL=ERROR
+NODE_VERSION=24.15.0
+YARN_VERSION=1.22.22
+TZ=America/Sao_Paulo
+DOCKER_ENV=true
+HOME=/root

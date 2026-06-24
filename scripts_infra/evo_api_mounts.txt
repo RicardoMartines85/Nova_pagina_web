@@ -1,0 +1,21 @@
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/opt/evolution/instances",
+                "Destination": "/evolution/instances",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "21b1ac0bf667",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,

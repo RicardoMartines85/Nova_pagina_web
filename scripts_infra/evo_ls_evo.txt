@@ -1,0 +1,7 @@
+total 24
+drwxr-xr-x  6 1000 1000 4096 May 31 10:27 .
+drwxr-xr-x 12 root root 4096 Jun 12 11:36 ..
+drwxr-xr-x  3 1000 1000 4096 Jun 12 16:45 instances
+drwx------ 19   70 root 4096 Jun 12 14:07 postgres
+drwxr-xr-x  2  999 root 4096 Jun 12 14:07 redis
+drwxr-xr-x  2 1000 1000 4096 May 31 09:15 store

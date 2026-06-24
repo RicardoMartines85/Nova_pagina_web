@@ -1,0 +1,26 @@
+=== DOCKER PS ===
+21b1ac0bf667   evoapicloud/evolution-api:latest   "/bin/bash -c '. ./D…"   13 days ago    Up 43 hours   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp                                                opt-evolution-api-1
+607279833b96   postgres:15-alpine                 "docker-entrypoint.s…"   13 days ago    Up 43 hours   5432/tcp                                                                                   opt-evolution-postgres-1
+52e623a300f6   redis:alpine                       "docker-entrypoint.s…"   13 days ago    Up 43 hours   6379/tcp                                                                                   opt-evolution-redis-1
+
+=== REDIS LOGS ===
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V1 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V2 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V3 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V4 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V5 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V6 API
+1:M 12 Jun 2026 17:07:31.243 * <ReJSON> Exported RedisJSON_V7 API
+1:M 12 Jun 2026 17:07:31.243 * <ReJSON> Enabled diskless replication
+1:M 12 Jun 2026 17:07:31.243 * <ReJSON> Initialized shared string cache, thread safe: true.
+1:M 12 Jun 2026 17:07:31.243 * Module 'ReJSON' loaded from /usr/local/lib/redis/modules//rejson.so
+1:M 12 Jun 2026 17:07:31.243 * <search> Acquired RedisJSON_V7 API
+1:M 12 Jun 2026 17:07:31.244 * Server initialized
+1:M 12 Jun 2026 17:07:31.244 * <search> Loading event started
+1:M 12 Jun 2026 17:07:31.244 * Loading RDB produced by version 8.8.0
+1:M 12 Jun 2026 17:07:31.245 * RDB age 1 seconds
+1:M 12 Jun 2026 17:07:31.245 * RDB memory usage when created 1.27 Mb
+1:M 12 Jun 2026 17:07:31.245 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 12 Jun 2026 17:07:31.245 * <search> Loading event ended successfully
+1:M 12 Jun 2026 17:07:31.246 * DB loaded from disk: 0.002 seconds
+1:M 12 Jun 2026 17:07:31.246 * Ready to accept connections tcp

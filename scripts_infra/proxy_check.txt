@@ -1,0 +1,38 @@
+=== DOCKER PS ===
+CONTAINER ID   IMAGE                              COMMAND                  CREATED        STATUS        PORTS                                                                                      NAMES
+45fecd94802d   opt-landing-page                   "docker-entrypoint.s…"   45 hours ago   Up 45 hours   0.0.0.0:8083->3000/tcp, [::]:8083->3000/tcp                                                opt-landing-page-1
+cd24865460da   docker.n8n.io/n8nio/n8n:latest     "tini -- /docker-ent…"   6 days ago     Up 6 days     0.0.0.0:5678->5678/tcp, [::]:5678->5678/tcp                                                n8n_standalone-n8n-1
+322768dd51a2   opt-rdo-app                        "/usr/local/bin/dock…"   11 days ago    Up 11 days    0.0.0.0:8081->80/tcp, [::]:8081->80/tcp                                                    opt-rdo-app-1
+07cc10736678   opt-rdo-mobile                     "/docker-entrypoint.…"   11 days ago    Up 11 days    0.0.0.0:8082->80/tcp, [::]:8082->80/tcp                                                    opt-rdo-mobile-1
+9dd4757c316b   opt-rdo-painel                     "docker-entrypoint.s…"   13 days ago    Up 13 days    0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp                                                opt-rdo-painel-1
+21b1ac0bf667   evoapicloud/evolution-api:latest   "/bin/bash -c '. ./D…"   13 days ago    Up 43 hours   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp                                                opt-evolution-api-1
+607279833b96   postgres:15-alpine                 "docker-entrypoint.s…"   13 days ago    Up 43 hours   5432/tcp                                                                                   opt-evolution-postgres-1
+52e623a300f6   redis:alpine                       "docker-entrypoint.s…"   13 days ago    Up 43 hours   6379/tcp                                                                                   opt-evolution-redis-1
+71cda1327866   jc21/nginx-proxy-manager:latest    "/init"                  2 weeks ago    Up 2 weeks    0.0.0.0:80-81->80-81/tcp, [::]:80-81->80-81/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp   opt-npm-1
+
+=== UFW STATUS ===
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+81/tcp                     ALLOW       Anywhere                  
+5678/tcp                   ALLOW       Anywhere                  
+8080/tcp                   ALLOW       Anywhere                  
+3000/tcp                   ALLOW       Anywhere                  
+8081/tcp                   ALLOW       Anywhere                  
+8082/tcp                   ALLOW       Anywhere                  
+8083/tcp                   ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+81/tcp (v6)                ALLOW       Anywhere (v6)             
+5678/tcp (v6)              ALLOW       Anywhere (v6)             
+8080/tcp (v6)              ALLOW       Anywhere (v6)             
+3000/tcp (v6)              ALLOW       Anywhere (v6)             
+8081/tcp (v6)              ALLOW       Anywhere (v6)             
+8082/tcp (v6)              ALLOW       Anywhere (v6)             
+8083/tcp (v6)              ALLOW       Anywhere (v6)             
+

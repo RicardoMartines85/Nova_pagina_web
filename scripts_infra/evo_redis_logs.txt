@@ -1,0 +1,50 @@
+1:M 12 Jun 2026 17:07:31.199 * <search> Redis version found by RedisSearch : 8.8.0 - oss
+1:M 12 Jun 2026 17:07:31.199 * <search> RediSearch version 8.8.0 (Git=d2ae026)
+1:M 12 Jun 2026 17:07:31.199 * <search> Low level api version 1 initialized successfully
+1:M 12 Jun 2026 17:07:31.199 * <search> gc: ON, prefix min length: 2, min word length to stem: 4, prefix max expansions: 200, query timeout (ms): 500, timeout policy: return, oom policy: return, cursor read size: 1000, cursor max idle (ms): 300000, max doctable size: 1000000, max number of search results:  1000000, default scorer: BM25STD, 
+1:M 12 Jun 2026 17:07:31.200 * <search> Initialized thread pools!
+1:M 12 Jun 2026 17:07:31.200 * <search> Enabled workers threadpool of size 4
+1:M 12 Jun 2026 17:07:31.208 * <search> Subscribe to config changes
+1:M 12 Jun 2026 17:07:31.208 * <search> Subscribe to cluster slot migration events
+1:M 12 Jun 2026 17:07:31.208 * <search> Enabled role change notification
+1:M 12 Jun 2026 17:07:31.209 * <search> Cluster configuration: AUTO partitions, type: 0, coordinator timeout: 0ms
+1:M 12 Jun 2026 17:07:31.210 * Module 'search' loaded from /usr/local/lib/redis/modules//redisearch.so
+1:M 12 Jun 2026 17:07:31.218 * <timeseries> RedisTimeSeries version 80800, git_sha=42ca4f1078fca732b7f9256adbf25914d67e1cc9
+1:M 12 Jun 2026 17:07:31.218 * <timeseries> Redis version found by RedisTimeSeries : 8.8.0 - oss
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> Registering configuration options: [
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-compaction-policy   :              }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-num-threads         :            3 }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-libmr-protocol      :     INTERNAL }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-retention-policy    :            0 }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-duplicate-policy    :        block }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-chunk-size-bytes    :         4096 }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-encoding            :   compressed }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-ignore-max-time-diff:            0 }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> 	{ ts-ignore-max-val-diff :     0.000000 }
+1:M 12 Jun 2026 17:07:31.219 * <timeseries> ]
+1:M 12 Jun 2026 17:07:31.223 * <timeseries> Detected redis oss
+1:M 12 Jun 2026 17:07:31.224 * <timeseries> Subscribe to ASM events
+1:M 12 Jun 2026 17:07:31.224 * <timeseries> Enabled diskless replication
+1:M 12 Jun 2026 17:07:31.224 * Module 'timeseries' loaded from /usr/local/lib/redis/modules//redistimeseries.so
+1:M 12 Jun 2026 17:07:31.236 * <ReJSON> Created new data type 'ReJSON-RL'
+1:M 12 Jun 2026 17:07:31.241 * <ReJSON> version: 80800 git sha: unknown branch: unknown
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V1 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V2 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V3 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V4 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V5 API
+1:M 12 Jun 2026 17:07:31.242 * <ReJSON> Exported RedisJSON_V6 API
+1:M 12 Jun 2026 17:07:31.243 * <ReJSON> Exported RedisJSON_V7 API
+1:M 12 Jun 2026 17:07:31.243 * <ReJSON> Enabled diskless replication
+1:M 12 Jun 2026 17:07:31.243 * <ReJSON> Initialized shared string cache, thread safe: true.
+1:M 12 Jun 2026 17:07:31.243 * Module 'ReJSON' loaded from /usr/local/lib/redis/modules//rejson.so
+1:M 12 Jun 2026 17:07:31.243 * <search> Acquired RedisJSON_V7 API
+1:M 12 Jun 2026 17:07:31.244 * Server initialized
+1:M 12 Jun 2026 17:07:31.244 * <search> Loading event started
+1:M 12 Jun 2026 17:07:31.244 * Loading RDB produced by version 8.8.0
+1:M 12 Jun 2026 17:07:31.245 * RDB age 1 seconds
+1:M 12 Jun 2026 17:07:31.245 * RDB memory usage when created 1.27 Mb
+1:M 12 Jun 2026 17:07:31.245 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 12 Jun 2026 17:07:31.245 * <search> Loading event ended successfully
+1:M 12 Jun 2026 17:07:31.246 * DB loaded from disk: 0.002 seconds
+1:M 12 Jun 2026 17:07:31.246 * Ready to accept connections tcp

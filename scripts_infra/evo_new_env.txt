@@ -1,0 +1,5 @@
+                "REDIS_PASSWORD=evoredis",
+                "REDIS_PORT=6379",
+                "REDIS_DB=1",
+                "REDIS_ENABLED=true",
+                "REDIS_HOST=evolution-redis",

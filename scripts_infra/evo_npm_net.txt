@@ -1,0 +1,4 @@
+            "NetworkMode": "web_net",
+        "NetworkSettings": {
+            "Networks": {
+                    "NetworkID": "756acdcee7938264ee89d0e1b2956698c4d368e841c08e3b47d077ba153ba724",

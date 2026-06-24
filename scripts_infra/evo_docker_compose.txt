@@ -1,0 +1,53 @@
+services:
+  npm:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - /opt/npm/data:/data
+      - /opt/npm/letsencrypt:/etc/letsencrypt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  landing-page:
+    build: /opt/landing-page
+    restart: always
+    ports:
+      - "8083:3000"
+    volumes:
+      - /opt/blog_data:/app/dist/client/blog_data
+    networks:
+      - web_net
+
+networks:
+  web_net:
+    name: web_net

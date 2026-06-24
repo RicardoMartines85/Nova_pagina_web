@@ -1,0 +1,11 @@
+=== WITH PASSWORD ===
+PONG
+
+ERR:
+Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.
+
+=== WITHOUT PASSWORD ===
+NOAUTH Authentication required.
+
+
+ERR:

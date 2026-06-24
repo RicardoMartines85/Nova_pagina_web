@@ -1,0 +1,13 @@
+=== EVO IP ===
+                    "IPAddress": "172.18.0.7",
+
+=== N8N IP ===
+                    "IPAddress": "172.19.0.2",
+
+=== NETWORKS ===
+NETWORK ID     NAME                     DRIVER    SCOPE
+a6add39ab28e   bridge                   bridge    local
+8f3d2b5e22c7   host                     host      local
+d0b078f40e2a   n8n_standalone_default   bridge    local
+305cd6080eaf   none                     null      local
+756acdcee793   web_net                  bridge    local

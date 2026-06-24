@@ -1,0 +1,18 @@
+=== ENVIRONMENT VARIABLES ===
+DOCKER_ENV=true
+DATABASE_CONNECTION_URI=postgresql://evouser:evopass@evolution-postgres:5432/evolutiondb?schema=public
+AUTHENTICATION_TYPE=apikey
+AUTHENTICATION_API_KEY=rdo-evolution-secret-2026
+REDIS_ENABLED=true
+REDIS_URI=redis://:evoredis@evolution-redis:6379/1
+DATABASE_CONNECTION_CLIENT_NAME=evolution_api
+LOG_LEVEL=ERROR
+DATABASE_PROVIDER=postgresql
+SERVER_URL=http://216.22.43.39:8080
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NODE_VERSION=24.15.0
+YARN_VERSION=1.22.22
+TZ=America/Sao_Paulo
+
+=== MOUNTS ===
+/opt/evolution/instances -> /evolution/instances

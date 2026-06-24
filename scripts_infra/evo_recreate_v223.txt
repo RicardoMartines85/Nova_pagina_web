@@ -1,0 +1,9 @@
+OUT: 78df115de513595db450ed443199622a10929d35b6dbcadf4d6018879d13dace
+
+LOGS:
+Deploying migrations for postgresql
+Database URL: 
+
+> evolution-api@2.2.3 db:deploy
+> node runWithProvider.js "rm -rf ./prisma/migrations && cp -r ./prisma/DATABASE_PROVIDER-migrations ./prisma/migrations && npx prisma migrate deploy --schema ./prisma/DATABASE_PROVIDER-schema.prisma"
+

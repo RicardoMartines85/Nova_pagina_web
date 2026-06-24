@@ -1,0 +1,61 @@
+=== API LOGS ===
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:42   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:42   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:43   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:43   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:44   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:44   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:45   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:45   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:46   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:46   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:47   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:47   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:48   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:48   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:49   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:49   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:50   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:50   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:51   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:51   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:52   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:52   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:53   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:53   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:54   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:54   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:55   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:55   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:56   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:56   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:57   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:57   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:58   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:58   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:59   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:15:59   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:00   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:00   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:01   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:01   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:02   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:02   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:03   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:03   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:04   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:04   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:05   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:05   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:06   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+[1m[31m[Evolution API][0m [1m[31m  [1m[31m v2.3.7 [1m[31m 183 [0m [1m[31m - [1m[37m Sun Jun 14 2026 09:16:06   [0m [31m[41m[1m ERROR [0m [33m[1m [Redis][0m [31m[1m [string][0m [31m redis disconnected [0m
+
+=== PING TEST ===
+PING evolution-api (172.18.0.7): 56 data bytes
+64 bytes from 172.18.0.7: seq=0 ttl=42 time=0.073 ms
+64 bytes from 172.18.0.7: seq=1 ttl=42 time=0.147 ms
+
+--- evolution-api ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 0.073/0.110/0.147 ms
+

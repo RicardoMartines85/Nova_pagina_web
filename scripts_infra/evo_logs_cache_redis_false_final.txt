@@ -1,0 +1,39 @@
+    },
+    lastRemoteEphemeralKey: <Buffer 05 dc 4c f0 65 2a 7c 2e 69 f0 b7 b0 10 b0 fc 01 1c e7 f3 e7 3d 62 90 4a ee 8f 25 34 8c 4d ac ef 13>,
+    previousCounter: 0,
+    rootKey: <Buffer 50 0a b6 93 95 e5 4d 5d 31 a1 d9 a3 59 dc 45 92 6b b0 0b 8d e7 a3 4e e8 f5 70 5f ec 53 99 67 15>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 c6 c4 96 9e cd aa 4f b8 bc 92 82 0d a3 96 ff 1e bf ee 80 1f 66 eb c5 b9 7e b9 80 77 a8 0c cd 0c>,
+    baseKeyType: 2,
+    closed: -1,
+    used: 1781443974786,
+    created: 1781443974786,
+    remoteIdentityKey: <Buffer 05 49 f5 2c e1 41 96 a1 1c 5f 83 29 c2 3f 9f 22 02 72 0a 9e 4d 37 97 c7 61 98 9c c5 c1 07 8d a2 32>
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BSYdC3l/csdRwHhvF812MCIvkJJWq+YX9/S1/2BhjUNP': { chainKey: [Object], chainType: 2, messageKeys: {} },
+    'BTiJYKXIm3hn+Jedyo4EWCcAIWzxLNg6rohQqsxT8H42': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 669053546,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 38 89 60 a5 c8 9b 78 67 f8 97 9d ca 8e 04 58 27 00 21 6c f1 2c d8 3a ae 88 50 aa cc 53 f0 7e 36>,
+      privKey: <Buffer 68 10 c4 d8 42 d6 46 50 da fa 29 b0 17 d4 ee 0d 6e 16 42 2b 4d 3e 9b c9 d9 eb 54 9f 31 1a 4f 58>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 26 1d 0b 79 7f 72 c7 51 c0 78 6f 17 cd 76 30 22 2f 90 92 56 ab e6 17 f7 f4 b5 ff 60 61 8d 43 4f>,
+    previousCounter: 0,
+    rootKey: <Buffer af ec 87 b0 f4 e5 83 72 15 25 a4 ac 17 ff 80 fa ef 7c 02 5b 52 ff 76 3e a4 05 fd 8a a6 99 5c 97>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 24 7f a5 91 42 99 ee 47 18 2f 90 6f 7c 26 9a 6e 29 d4 fd f0 f0 4c 11 af df ab c3 f9 aa b7 f2 63>,
+    baseKeyType: 2,
+    closed: -1,
+    used: 1781443974792,
+    created: 1781443974792,
+    remoteIdentityKey: <Buffer 05 49 f5 2c e1 41 96 a1 1c 5f 83 29 c2 3f 9f 22 02 72 0a 9e 4d 37 97 c7 61 98 9c c5 c1 07 8d a2 32>
+  }
+}
+recv 20 chats, 29 contacts, 58 msgs (is latest: true, progress: null%), type: 5

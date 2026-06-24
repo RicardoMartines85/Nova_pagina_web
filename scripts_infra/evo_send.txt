@@ -1,0 +1,6 @@
+=== OUTPUT ===
+{"status":404,"error":"Not Found","response":{"message":["The \"Martines-Produtos-digitais\" instance does not exist"]}}
+=== ERRS ===
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   284  100   120  100   164   9416  12869 --:--:-- --:--:-- --:--:-- 23666
