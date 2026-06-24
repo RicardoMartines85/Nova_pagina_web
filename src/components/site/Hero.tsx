@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section id="top" className="relative pt-36 pb-24 md:pt-44 md:pb-32 overflow-hidden">
+    <section id="top" className="relative pt-36 pb-24 md:pt-44 md:pb-32 overflow-hidden bg-[#faf9f6] dark:bg-[#1a1918]">
       <div className="absolute inset-0 grid-bg pointer-events-none" aria-hidden />
       <div className="relative max-w-5xl mx-auto px-6 lg:px-10 text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/60 px-3 py-1 text-xs text-muted-foreground animate-fade-up">
@@ -41,6 +41,16 @@ export function Hero() {
           <p className="text-xs text-muted-foreground">
             Uma análise estratégica de 30 minutos focada em gargalos e ROI real.
           </p>
+        </div>
+
+        <div className="mt-16 md:mt-20 w-full max-w-5xl mx-auto px-2 sm:px-0 animate-fade-up [animation-delay:320ms]">
+          <div className="relative rounded-xl p-1.5 md:p-2.5 bg-foreground/5 border border-border/40 shadow-[0_10px_25px_rgba(0,0,0,0.05)] backdrop-blur-sm">
+            <img 
+              src="/hero-dashboard.png" 
+              alt="Sistema de Gestão Operacional e Dashboard de Construção em funcionamento num monitor"
+              className="w-full h-auto rounded-md shadow-sm object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>
