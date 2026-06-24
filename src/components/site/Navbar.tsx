@@ -5,8 +5,7 @@ import { useTheme } from "@/hooks/use-theme";
 const links = [
   { href: "#diagnostico", label: "O Diagnóstico" },
   { href: "#sistemas", label: "Sistemas Desenvolvidos" },
-  { href: "#lideranca", label: "Liderança de Pensamento" },
-  { href: "#blog", label: "Blog" },
+  { href: "#lideranca", label: "Liderança (Blog)" },
 ];
 
 export function Navbar({ onOpenRestricted }: { onOpenRestricted: () => void }) {
