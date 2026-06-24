@@ -7,14 +7,15 @@ export function Diagnostico() {
             O Diferencial
           </p>
           <h2 className="mt-4 text-3xl md:text-5xl font-semibold tracking-tight text-foreground leading-[1.1]">
-            Entender a pergunta é{" "}
-            <span className="text-muted-foreground">50% da resposta.</span>
+            Entender a pergunta é <span className="text-muted-foreground">50% da resposta.</span>
           </h2>
           <p className="mt-6 text-base md:text-lg text-muted-foreground leading-relaxed">
-            Automatizar a bagunça só serve para gerar ineficiência em escala industrial. A Inteligência Artificial e a automação são amplificadores potentes, mas exigem direção clara. Atuamos como{" "}
-            <span className="text-foreground font-medium">Business Translators</span>:
-            entramos na sua operação, mapeamos o fluxo atual (As-Is) e desenhamos a
-            transição exata para o modelo automatizado (To-Be).
+            Automatizar a bagunça só serve para gerar ineficiência em escala industrial. A
+            Inteligência Artificial e a automação são amplificadores potentes, mas exigem direção
+            clara. Atuamos como{" "}
+            <span className="text-foreground font-medium">Business Translators</span>: entramos na
+            sua operação, mapeamos o fluxo atual (As-Is) e desenhamos a transição exata para o
+            modelo automatizado (To-Be).
           </p>
           <p className="mt-4 text-base md:text-lg text-muted-foreground leading-relaxed">
             Menos vaidade digital. Mais eficiência raiz.
@@ -62,11 +63,15 @@ function FlowDiagram() {
               stroke="currentColor"
               strokeWidth={1}
               opacity={0.5}
-              transform={`rotate(${(i * 37) % 18 - 9} ${40 + (i % 3) * 22} ${50 + Math.floor(i / 3) * 26})`}
+              transform={`rotate(${((i * 37) % 18) - 9} ${40 + (i % 3) * 22} ${50 + Math.floor(i / 3) * 26})`}
             />
           ))}
         </g>
-        <text x="20" y="170" className="fill-muted-foreground text-[10px] uppercase tracking-widest">
+        <text
+          x="20"
+          y="170"
+          className="fill-muted-foreground text-[10px] uppercase tracking-widest"
+        >
           As-Is · Caos
         </text>
 
@@ -106,7 +111,11 @@ function FlowDiagram() {
             )),
           )}
         </g>
-        <text x="260" y="385" className="fill-foreground text-[10px] uppercase tracking-widest font-medium">
+        <text
+          x="260"
+          y="385"
+          className="fill-foreground text-[10px] uppercase tracking-widest font-medium"
+        >
           To-Be · Ordem
         </text>
 

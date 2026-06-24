@@ -1,13 +1,7 @@
 import { useEffect, useState } from "react";
 import { X, Lock } from "lucide-react";
 
-export function RestrictedModal({
-  open,
-  onClose,
-}: {
-  open: boolean;
-  onClose: () => void;
-}) {
+export function RestrictedModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [pwd, setPwd] = useState("");
   const [error, setError] = useState(false);
 
@@ -39,10 +33,7 @@ export function RestrictedModal({
 
   return (
     <div className="fixed inset-0 z-50 grid place-items-center p-4">
-      <div
-        className="absolute inset-0 bg-background/60 backdrop-blur-md"
-        onClick={onClose}
-      />
+      <div className="absolute inset-0 bg-background/60 backdrop-blur-md" onClick={onClose} />
       <div className="relative w-full max-w-md bg-card border border-border rounded-2xl shadow-2xl p-7 md:p-8 animate-fade-up">
         <button
           onClick={onClose}
@@ -54,9 +45,7 @@ export function RestrictedModal({
         <div className="h-11 w-11 rounded-lg bg-brand/10 text-brand grid place-items-center">
           <Lock className="h-5 w-5" strokeWidth={1.5} />
         </div>
-        <h3 className="mt-5 text-xl font-semibold tracking-tight text-foreground">
-          Área Restrita
-        </h3>
+        <h3 className="mt-5 text-xl font-semibold tracking-tight text-foreground">Área Restrita</h3>
         <p className="mt-1.5 text-sm text-muted-foreground">
           Acesso reservado a clientes ativos e operação interna.
         </p>
@@ -73,9 +62,7 @@ export function RestrictedModal({
             className="w-full rounded-lg border border-input bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-brand/40 focus:border-brand"
           />
           {error && (
-            <p className="text-xs text-destructive">
-              Acesso negado. Credencial incorreta.
-            </p>
+            <p className="text-xs text-destructive">Acesso negado. Credencial incorreta.</p>
           )}
           <button
             type="submit"

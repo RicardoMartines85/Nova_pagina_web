@@ -11,27 +11,27 @@ interface AnalyticsData {
 }
 
 export const trackPageView = createServerFn({ method: "POST" })
-  .validator((data: { path: string }) => data)
+  .inputValidator((data: { path: string }) => data)
   .handler(async ({ data }) => {
     try {
       const isProd = process.env.NODE_ENV === "production";
-      const dataDir = isProd 
+      const dataDir = isProd
         ? path.join(process.cwd(), "dist", "client", "blog_data")
         : path.join(process.cwd(), "public", "blog_data");
-        
+
       if (!fs.existsSync(dataDir)) {
         fs.mkdirSync(dataDir, { recursive: true });
       }
 
       const filePath = path.join(dataDir, "analytics.json");
       let analytics: AnalyticsData = { visits: [] };
-      
+
       if (fs.existsSync(filePath)) {
         try {
           analytics = JSON.parse(fs.readFileSync(filePath, "utf-8"));
         } catch (e) {}
       }
-      
+
       analytics.visits.push({
         date: new Date().toISOString().split("T")[0],
         timestamp: Date.now(),
@@ -50,23 +50,22 @@ export const trackPageView = createServerFn({ method: "POST" })
     }
   });
 
-export const getAnalyticsData = createServerFn({ method: "GET" })
-  .handler(async () => {
-    try {
-      const isProd = process.env.NODE_ENV === "production";
-      const dataDir = isProd 
-        ? path.join(process.cwd(), "dist", "client", "blog_data")
-        : path.join(process.cwd(), "public", "blog_data");
-        
-      const filePath = path.join(dataDir, "analytics.json");
-      
-      if (!fs.existsSync(filePath)) {
-        return { visits: [] };
-      }
-      
-      return JSON.parse(fs.readFileSync(filePath, "utf-8")) as AnalyticsData;
-    } catch (error) {
-      console.error("Error fetching analytics:", error);
+export const getAnalyticsData = createServerFn({ method: "GET" }).handler(async () => {
+  try {
+    const isProd = process.env.NODE_ENV === "production";
+    const dataDir = isProd
+      ? path.join(process.cwd(), "dist", "client", "blog_data")
+      : path.join(process.cwd(), "public", "blog_data");
+
+    const filePath = path.join(dataDir, "analytics.json");
+
+    if (!fs.existsSync(filePath)) {
       return { visits: [] };
     }
-  });
+
+    return JSON.parse(fs.readFileSync(filePath, "utf-8")) as AnalyticsData;
+  } catch (error) {
+    console.error("Error fetching analytics:", error);
+    return { visits: [] };
+  }
+});

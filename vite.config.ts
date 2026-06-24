@@ -8,9 +8,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   tanstackStart: {
-    server: { 
+    server: {
       entry: "server",
-      preset: "node-server" 
+      preset: "node-server",
     },
   },
   vite: {

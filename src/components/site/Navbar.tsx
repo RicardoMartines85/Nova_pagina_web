@@ -24,9 +24,7 @@ export function Navbar({ onOpenRestricted }: { onOpenRestricted: () => void }) {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-40 transition-all duration-300 ${
-        scrolled
-          ? "backdrop-blur-xl bg-background/75 border-b border-border"
-          : "bg-transparent"
+        scrolled ? "backdrop-blur-xl bg-background/75 border-b border-border" : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
@@ -37,10 +35,7 @@ export function Navbar({ onOpenRestricted }: { onOpenRestricted: () => void }) {
         <ul className="hidden md:flex items-center gap-9 text-sm text-muted-foreground">
           {links.map((l) => (
             <li key={l.href}>
-              <a
-                href={l.href}
-                className="hover:text-foreground transition-colors"
-              >
+              <a href={l.href} className="hover:text-foreground transition-colors">
                 {l.label}
               </a>
             </li>

@@ -9,49 +9,65 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as Area_restritaRouteImport } from './routes/area_restrita'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AreaRestritaRouteImport } from './routes/area_restrita'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 
-const AreaRestritaRoute = AreaRestritaRouteImport.update({
+const Area_restritaRoute = Area_restritaRouteImport.update({
   id: '/area_restrita',
   path: '/area_restrita',
   getParentRoute: () => rootRouteImport,
 } as any)
-
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/area_restrita': typeof AreaRestritaRoute
+  '/area_restrita': typeof Area_restritaRoute
+  '/blog/$slug': typeof BlogSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/area_restrita': typeof AreaRestritaRoute
+  '/area_restrita': typeof Area_restritaRoute
+  '/blog/$slug': typeof BlogSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/area_restrita': typeof AreaRestritaRoute
+  '/area_restrita': typeof Area_restritaRoute
+  '/blog/$slug': typeof BlogSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/area_restrita'
+  fullPaths: '/' | '/area_restrita' | '/blog/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/area_restrita'
-  id: '__root__' | '/' | '/area_restrita'
+  to: '/' | '/area_restrita' | '/blog/$slug'
+  id: '__root__' | '/' | '/area_restrita' | '/blog/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AreaRestritaRoute: typeof AreaRestritaRoute
+  Area_restritaRoute: typeof Area_restritaRoute
+  BlogSlugRoute: typeof BlogSlugRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/area_restrita': {
+      id: '/area_restrita'
+      path: '/area_restrita'
+      fullPath: '/area_restrita'
+      preLoaderRoute: typeof Area_restritaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -59,11 +75,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/area_restrita': {
-      id: '/area_restrita'
-      path: '/area_restrita'
-      fullPath: '/area_restrita'
-      preLoaderRoute: typeof AreaRestritaRouteImport
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -71,8 +87,19 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AreaRestritaRoute: AreaRestritaRoute,
+  Area_restritaRoute: Area_restritaRoute,
+  BlogSlugRoute: BlogSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

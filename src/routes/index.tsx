@@ -14,8 +14,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title:
-          "Consultoria em Transformação Digital e Hiperautomação B2B | Martines",
+        title: "Consultoria em Transformação Digital e Hiperautomação B2B | Martines",
       },
       {
         name: "description",
@@ -24,8 +23,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content:
-          "Consultoria em Transformação Digital e Hiperautomação B2B | Martines",
+        content: "Consultoria em Transformação Digital e Hiperautomação B2B | Martines",
       },
       {
         property: "og:description",
@@ -66,10 +64,7 @@ function Index() {
       <Contato />
       <Footer />
       <WhatsappFab />
-      <RestrictedModal
-        open={restrictedOpen}
-        onClose={() => setRestrictedOpen(false)}
-      />
+      <RestrictedModal open={restrictedOpen} onClose={() => setRestrictedOpen(false)} />
     </main>
   );
 }

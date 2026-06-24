@@ -13,7 +13,8 @@ export function Contato() {
             Onde está o desperdício invisível da sua operação hoje?
           </h2>
           <p className="mt-5 text-muted-foreground text-base md:text-lg">
-            30 minutos de call. Sem pitch chato de vendas. Saímos da conversa com um mapa preliminar dos seus gargalos operacionais e o ROI estimado para automatizar a sua empresa.
+            30 minutos de call. Sem pitch chato de vendas. Saímos da conversa com um mapa preliminar
+            dos seus gargalos operacionais e o ROI estimado para automatizar a sua empresa.
           </p>
         </div>
 
@@ -22,10 +23,10 @@ export function Contato() {
             e.preventDefault();
             const formData = new FormData(e.currentTarget);
             const data = Object.fromEntries(formData.entries());
-            
+
             // O botão vira "Recebido" instantaneamente para boa UX
             setSent(true);
-            
+
             try {
               // Webhook Oficial do n8n (Testes)
               await fetch("https://n8n.martines.halftech.com/webhook-test/martines_formulario", {

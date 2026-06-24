@@ -28,15 +28,14 @@ export function Sistemas() {
     <section id="sistemas" className="py-24 md:py-32 border-t border-border bg-muted/30">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="max-w-3xl">
-          <p className="text-xs uppercase tracking-[0.18em] text-brand font-medium">
-            Catálogo
-          </p>
+          <p className="text-xs uppercase tracking-[0.18em] text-brand font-medium">Catálogo</p>
           <h2 className="mt-4 text-3xl md:text-5xl font-semibold tracking-tight text-foreground leading-[1.1]">
             Soluções Digitais "Plug and Play"{" "}
             <span className="text-muted-foreground">prontas para tracionar o seu negócio.</span>
           </h2>
           <p className="mt-4 text-base md:text-lg text-muted-foreground">
-            Além de projetos sob medida, oferecemos ecossistemas validados para implementação imediata.
+            Além de projetos sob medida, oferecemos ecossistemas validados para implementação
+            imediata.
           </p>
         </div>
 
@@ -55,9 +54,7 @@ export function Sistemas() {
               <h3 className="mt-6 text-lg font-semibold text-foreground tracking-tight">
                 {s.title}
               </h3>
-              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                {s.desc}
-              </p>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
             </article>
           ))}
         </div>

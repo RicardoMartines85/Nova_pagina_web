@@ -75,10 +75,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "RDO Inteligente | Gestão de Obras Automatizada por IA" },
-      { name: "description", content: "Automatize seus Relatórios Diários de Obra. O RDO Inteligente funciona offline, aprova fotos com IA e gera relatórios automáticos. Ideal para engenharia e construtoras." },
+      {
+        name: "description",
+        content:
+          "Automatize seus Relatórios Diários de Obra. O RDO Inteligente funciona offline, aprova fotos com IA e gera relatórios automáticos. Ideal para engenharia e construtoras.",
+      },
       { name: "author", content: "Martines Produtos Digitais" },
       { property: "og:title", content: "RDO Inteligente | Gestão de Obras Automatizada por IA" },
-      { property: "og:description", content: "Automatize seus Relatórios Diários de Obra. O RDO Inteligente funciona offline, aprova fotos com IA e gera relatórios automáticos. Ideal para engenharia e construtoras." },
+      {
+        property: "og:description",
+        content:
+          "Automatize seus Relatórios Diários de Obra. O RDO Inteligente funciona offline, aprova fotos com IA e gera relatórios automáticos. Ideal para engenharia e construtoras.",
+      },
       { property: "og:type", content: "website" },
       { property: "og:image", content: "https://martines.halftech.com/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },

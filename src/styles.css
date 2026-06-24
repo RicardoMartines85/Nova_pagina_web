@@ -106,20 +106,39 @@
 }
 
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 60%, transparent); }
-  70% { box-shadow: 0 0 0 14px color-mix(in oklab, var(--brand) 0%, transparent); }
-  100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 0%, transparent); }
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 60%, transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 14px color-mix(in oklab, var(--brand) 0%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 0%, transparent);
+  }
 }
 @keyframes flow-dash {
-  to { stroke-dashoffset: -100; }
+  to {
+    stroke-dashoffset: -100;
+  }
 }
 @keyframes float-y {
-  0%,100% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
 }
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @utility animate-pulse-ring {
@@ -134,8 +153,16 @@
 }
 @utility grid-bg {
   background-image:
-    linear-gradient(to right, color-mix(in oklab, var(--foreground) 5%, transparent) 1px, transparent 1px),
-    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 5%, transparent) 1px, transparent 1px);
+    linear-gradient(
+      to right,
+      color-mix(in oklab, var(--foreground) 5%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in oklab, var(--foreground) 5%, transparent) 1px,
+      transparent 1px
+    );
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse at center, black 40%, transparent 75%);
 }

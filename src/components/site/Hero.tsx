@@ -1,9 +1,6 @@
 export function Hero() {
   return (
-    <section
-      id="top"
-      className="relative pt-36 pb-24 md:pt-44 md:pb-32 overflow-hidden"
-    >
+    <section id="top" className="relative pt-36 pb-24 md:pt-44 md:pb-32 overflow-hidden">
       <div className="absolute inset-0 grid-bg pointer-events-none" aria-hidden />
       <div className="relative max-w-5xl mx-auto px-6 lg:px-10 text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/60 px-3 py-1 text-xs text-muted-foreground animate-fade-up">
@@ -27,10 +24,10 @@ export function Hero() {
         </h1>
 
         <p className="mt-8 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground leading-relaxed animate-fade-up [animation-delay:160ms]">
-          O desperdício invisível está sangrando a margem do seu negócio através de
-          planilhas paralelas, digitação manual e falhas de comunicação. Nós
-          desenhamos a transformação digital da sua operação e implementamos motores de automação sob
-          medida via n8n e IA. Sem travar sua equipe, sem licenças abusivas.
+          O desperdício invisível está sangrando a margem do seu negócio através de planilhas
+          paralelas, digitação manual e falhas de comunicação. Nós desenhamos a transformação
+          digital da sua operação e implementamos motores de automação sob medida via n8n e IA. Sem
+          travar sua equipe, sem licenças abusivas.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-3 animate-fade-up [animation-delay:240ms]">
