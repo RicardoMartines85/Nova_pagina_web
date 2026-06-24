@@ -1,13 +1,13 @@
-FROM node:20-alpine AS builder
+FROM oven/bun:1 as builder
 
 WORKDIR /app
-COPY package*.json ./
-RUN npm install --ignore-scripts --legacy-peer-deps
+COPY package.json bun.lock ./
+RUN bun install
 
 COPY . .
-RUN npm run build
+RUN bun run build
 
-FROM node:20-alpine
+FROM oven/bun:1-alpine
 
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
@@ -21,4 +21,4 @@ EXPOSE 3000
 ENV PORT=3000
 ENV NODE_ENV=production
 
-CMD ["npm", "run", "preview", "--", "--port", "3000", "--host", "0.0.0.0"]
+CMD ["bun", "run", "preview", "--", "--port", "3000", "--host", "0.0.0.0"]
